@@ -1907,7 +1907,7 @@ Username.TextColor3 = Library.Theme.Text
 local ExpiresLabel = Instance.new("TextLabel")
 ExpiresLabel.Parent = BottomTab
 ExpiresLabel.BackgroundTransparency = 1
-ExpiresLabel.Position = UDim2.new(0, 50, 0, 38)
+ExpiresLabel.Position = UDim2.new(0, 74, 0, 38)
 ExpiresLabel.Size = UDim2.new(0, 52, 0, 16)
 ExpiresLabel.TextXAlignment = Enum.TextXAlignment.Left
 ExpiresLabel.Text = "Expires:"
@@ -1916,11 +1916,12 @@ ExpiresLabel.TextSize = 13
 ExpiresLabel.TextTransparency = 0.4
 ExpiresLabel.TextColor3 = Library.Theme.Text
 
+
 -- Countdown text
 local Countdown = Instance.new("TextLabel")
 Countdown.Parent = BottomTab
 Countdown.BackgroundTransparency = 1
-Countdown.Position = UDim2.new(0, 130, 0, 38)
+Countdown.Position = UDim2.new(0, 140, 0, 38)
 Countdown.Size = UDim2.new(1, -140, 0, 16)
 Countdown.TextXAlignment = Enum.TextXAlignment.Left
 Countdown.FontFace = Library.Font
